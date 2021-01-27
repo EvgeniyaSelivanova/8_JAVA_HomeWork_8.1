@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
 public class Radio {
+
     private int currentRadio;
 
     public int getCurrentRadio() {

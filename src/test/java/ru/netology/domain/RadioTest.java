@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RadioTest {
 
+
 //    Testing of changes radio stations
 
     @Test
@@ -154,6 +155,4 @@ class RadioTest {
         RadioObject.changeDownVolumeRadio();
         assertEquals(0, RadioObject.getCurrentVolume());
     }
-
-
 }
